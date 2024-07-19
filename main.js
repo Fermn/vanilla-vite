@@ -1,4 +1,4 @@
-import './style.css'
+import './main.css'
 import 'normalize.css'
 
 document.querySelector('#app').innerHTML = `

@@ -1,3 +1,5 @@
+@import './components/nav.css';
+
 :root {
   --main-bg-color: #08070b;
 }
@@ -21,20 +23,10 @@ main {
   background-color: var(--main-bg-color);
   height: 100vh;
 }
-nav {
-  border: 1px purple solid;
-  height: 50px;
-}
 
 section {
   display: flex;
   flex: 1;
   border: 5px orange solid;
   height: 100vh;
-}
-
-div {
-  background-color: pink;
-  border: 5px red solid;
-  width: 100%;
 }
