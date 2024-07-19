@@ -11,3 +11,12 @@ nav {
     line-height: 50px;
     justify-content: space-around;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #d3d0cb;
+  }
