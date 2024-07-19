@@ -1,0 +1,40 @@
+:root {
+  --main-bg-color: #08070b;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  border: 5px yellow solid;
+  width: 300px;
+}
+
+body {
+  border: 5px orange solid;
+}
+
+main {
+  background-color: var(--main-bg-color);
+  height: 100vh;
+}
+nav {
+  border: 1px purple solid;
+  height: 50px;
+}
+
+section {
+  display: flex;
+  flex: 1;
+  border: 5px orange solid;
+  height: 100vh;
+}
+
+div {
+  background-color: pink;
+  border: 5px red solid;
+  width: 100%;
+}
