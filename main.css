@@ -1,7 +1,8 @@
 @import './components/nav.css';
+@import './components/footer.css';
 
 :root {
-  --main-bg-color: #08070b;
+  --background: #151417;
 }
 
 #app {
@@ -15,18 +16,7 @@
   width: 300px;
 }
 
-body {
-  
-}
-
 main {
-  background-color: var(--main-bg-color);
-  height: 100vh;
-}
-
-section {
-  display: flex;
-  flex: 1;
-  border: 5px orange solid;
-  height: 100vh;
+  background-color: var(--background);
+  height: 90vh;
 }
