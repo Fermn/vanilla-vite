@@ -1,22 +1,30 @@
+:root {
+  --transitions-duration: 0.2s;
+  --colors-primary:#f2f2f2;
+}
+
 nav {
+    display: flex;
     height: 50px;
+    background-color:black;
   }
   
   nav > ul {
     display: flex;
-    color: white;
-    list-style-type: none;
+    border: 1px black solid;
     margin: 0 auto;
     width: 50%;
-    line-height: 50px;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
   }
 
-  a {
-    color: white;
+  li > a {
+    color: #8f9ba8;
+    transition: color var(--transitions-duration: 0.2s;) ease-in-out;
     text-decoration: none;
   }
 
-  a:hover {
-    color: #d3d0cb;
+  
+  li > a:hover {
+    color: var(--colors-primary);
   }
